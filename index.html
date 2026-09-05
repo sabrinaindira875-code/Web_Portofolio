@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok Ruby - Portofolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+
+    <header class="hero-section">
+        <h1 class="hero-title">Kelompok <span> Portofolio</span></h1>
+        <h2 class="hero-title">Kelompok <span>Ruby </span></h2>
+        <p class="hero-subtitle">Membangun Masa Depan Melalui Kode & Desain</p>
+    </header>
+
+    <main class="container">
+        <!-- Bento Grid Container for Members -->
+        <section id="member-grid" class="bento-grid">
+            <!-- Member Cards will be injected here by main.js -->
+        </section>
+    </main>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="cert-image" alt="Sertifikat">
+        <div id="cert-caption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/members.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
