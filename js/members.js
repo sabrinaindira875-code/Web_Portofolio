@@ -69,7 +69,7 @@ const membersData = [
         id: "m5",
         name: "Zulfia Rahma Rizfatuz Shalihah",
         role: "Anggota",
-        photo: "assets/images/zulfia.jpeg",
+        photo: "assets/images/zulfia.jpg",
         about: "Rajin bangett.",
         motivation: "مَنْ سَارَ عَلَى الدَّرْبِ وَصَل",
         socials: {
