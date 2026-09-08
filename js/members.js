@@ -3,7 +3,7 @@ const membersData = [
         id: "m1",
         name: "Arda Purba Fa'is Akbar",
         role: "Anggota",
-        photo: "project alfi/images/arda.jpeg",
+        photo: "assets/images/arda.jpeg",
         about: "Saya seorang manusia yang antusias dengan menciptakan pengalaman pengguna yang intuitif, menarik, dan aksesibel. Berfokus pada perpaduan antara estetika desain dan performa kode.",
         motivation: "Mendesain bukan hanya soal tampilannya, tapi bagaimana kita berinspirasi.",
         socials: {
@@ -20,7 +20,7 @@ const membersData = [
         id: "m2",
         name: "Sabrina Indira Malika Ayu",
         role: "Anggota",
-        photo: "project alfi/images/sabrina.jpeg",
+        photo: "assets/images/sabrina.jpeg",
         about: "Saya seorang manusia yang penasaran, suka belajar hal baru, bertanggung jawab, dan selalu berusaha untuk berkembang menjadi lebih baik.",
         motivation: "Belajar bukan hanya tentang mendapatkan nilai, tetapi tentang bagaimana setiap proses memberi kita inspirasi untuk berkembang.",
         socials: {
@@ -36,7 +36,7 @@ const membersData = [
         id: "m3",
         name: "Dimas Adji Pratama",
         role: "Anggota",
-        photo: "project alfi/images/dimas.jpeg",
+        photo: "assets/images/dimas.jpeg",
         about: "Saya adalah mahasiswa semester awal, yang baru terjun di dunia teknologi dan saya ingin berkembang di dunia teknologi ini.",
         motivation: "Proges tidak selalu nyaman, rasa lelah dan ingin menyerah itu wajar.Pertumbuhkan diri justru terjadi saat sedang memecahkan masalah sulit atau memaksakan diri menyelesaikan tanggung jawab",
         socials: {
@@ -53,7 +53,7 @@ const membersData = [
         id: "m4",
         name: "Hanifa Khoirunnisa'",
         role: "Anggota",
-        photo: "https://i.pravatar.cc/150?img=53",
+        photo: "assets/images/hanifa.jpeg",
         about: "Rajin, suka tersenyum, dan bersyukur.",
         motivation: "IPK penting karakter utama.",
         socials: {
@@ -67,11 +67,11 @@ const membersData = [
     },
     {
         id: "m5",
-        name: "Zulfia rahma'",
+        name: "Zulfia Rahma Rizfatuz Shalihah",
         role: "Anggota",
-        photo: "https://i.pravatar.cc/150?img=53",
+        photo: "assets/images/zulfia.jpeg",
         about: "Rajin bangett.",
-        motivation: "IPK adalah segalanya",
+        motivation: "مَنْ سَارَ عَلَى الدَّرْبِ وَصَل",
         socials: {
             github: "https://github.com/zulfiarahma",
             linkedin: "https://www.linkedin.com/in/zulfia-rahma-80462342b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
@@ -99,11 +99,11 @@ const membersData = [
     },
     {
         id: "m7",
-        name: "wahyu fajar maharga'",
+        name: "Wahyu Fajar Maharga'",
         role: "Anggota",
-        photo: "https://i.pravatar.cc/150?img=53",
-        about: "Rajin, suka senyum sama pohon.",
-        motivation: "mencintai seseorang hanya mendapatkan hikmahnya,tetapi mencintai pohon hanya mendapatkan sakit.",
+        photo: "assets/images/fajar.jpeg",
+        about: "menjadi pribadi yang lebih percaya diri, tanggung jawab",
+        motivation: "Jadilah dirimu sendiri",
         socials: {
             github: "https://github.com/wahyufajarm14-byte",
             linkedin: "https://id.linkedin.com/in/wahyu-fajar-maharga-1b486542b",
