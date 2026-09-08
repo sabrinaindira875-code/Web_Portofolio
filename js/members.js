@@ -85,7 +85,7 @@ const membersData = [
         id: "m6",
         name: "Hilal fadhil ramadan'",
         role: "Anggota",
-        photo: "https://i.pravatar.cc/150?img=53",
+        photo: "assets/images/hilal.jpeg",
         about: "teman kelompok kerjane nyusul.",
         motivation: "IPK penting karakter utama.",
         socials: {
