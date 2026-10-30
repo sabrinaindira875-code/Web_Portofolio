@@ -21,16 +21,56 @@
     <link rel="stylesheet" href="css/components.css">
 </head>
 
-<body>
+<body id="top">
 
-    <header class="hero-section">
-        <h1 class="hero-title">Kelompok <span>Portofolio</span> 8 RUBY</h1>
-        <p class="hero-subtitle">Tidak ada individu yang bisa memenangkan permainan sendiri.</p>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navigasi utama">
+            <a class="navbar-brand" href="#top">
+                <span class="brand-text"><span class="brand-highlight">Portofolio</span> Kelompok Ruby</span>
+            </a>
+            <div class="navbar-links">
+                <a href="#top">Beranda</a>
+                <a href="#members">Anggota</a>
+            </div>
+        </nav>
     </header>
 
-    <main class="container">
+    <section class="hero-section">
+        <h1 class="hero-title">Welcome to <span>My Portofolio</span> Kelompok RUBY</h1>
+    </section>
+
+    <section class="group-showcase" aria-label="Foto bersama Kelompok Ruby">
+        <div class="group-slider">
+            <div class="group-slide active">
+                <img src="assets/images/kelompok-ruby-1.jpe" alt="Foto bersama Kelompok Ruby pertama" class="group-photo">
+            </div>
+            <div class="group-slide">
+                <img src="assets/images/kelompok-ruby-2.jpe" alt="Foto bersama Kelompok Ruby kedua" class="group-photo">
+            </div>
+            <div class="group-slide">
+                <img src="assets/images/kelompok-ruby.png" alt="Foto bersama Kelompok Ruby utama" class="group-photo">
+            </div>
+        </div>
+        <div class="group-overlay">
+            <h2 id="group-title">Kelompok Ruby</h2>
+        </div>
+        <button class="group-nav group-prev" type="button" aria-label="Foto sebelumnya">&#10094;</button>
+        <button class="group-nav group-next" type="button" aria-label="Foto berikutnya">&#10095;</button>
+        <div class="group-dots" aria-label="Pilih foto">
+            <button class="group-dot active" type="button" aria-label="Foto 1"></button>
+            <button class="group-dot" type="button" aria-label="Foto 2"></button>
+            <button class="group-dot" type="button" aria-label="Foto utama"></button>
+        </div>
+    </section>
+
+    <section class="group-description" aria-label="Tentang Kelompok Ruby">
+        <p>Kami adalah kelompok yang berfokus pada bidang Teknologi Informasi, dengan semangat untuk terus belajar, berinovasi, dan mengembangkan kemampuan di era digital. Melalui kolaborasi, kreativitas, dan pemanfaatan teknologi, kami berupaya menghasilkan karya dan solusi yang bermanfaat. Kami percaya bahwa komunikasi, tanggung jawab, dan kerja sama merupakan kunci dalam mencapai hasil yang maksimal.</p>
+        <p>Portofolio ini menjadi gambaran dari ide, proses, dan hasil kerja yang telah kami kembangkan bersama. Setiap proyek merupakan kesempatan bagi kami untuk menambah pengalaman, mengasah keterampilan, serta menghadapi tantangan di bidang teknologi informasi. Kami berkomitmen untuk terus berkembang, mengikuti kemajuan teknologi, dan menciptakan solusi yang inovatif, efektif, serta relevan dengan kebutuhan masa kini.</p>
+    </section>
+
+    <main class="container" id="members">
         <!-- Bento Grid Container for Members -->
-        <section id="member-grid" class="bento-grid">
+        <section id="member-grid" class="bento-grid member-grid" aria-label="Anggota Kelompok Ruby">
             <!-- Member Cards will be injected here by main.js -->
         </section>
     </main>

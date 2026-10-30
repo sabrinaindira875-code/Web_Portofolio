@@ -9,12 +9,16 @@ const membersData = [
         socials: {
             github: "https://github.com/ARDAPURBAFAISAKBAR",
             linkedin: "https://www.linkedin.com/in/arda-purba-fa-is-akbar-83b82942b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://instagram.com"
+            instagram: "https://www.instagram.com/arda.p_?exln=M3ZxZTd1anp4Z2Qz"
         },
         certificates: [
-            { thumb: "https://picsum.photos/id/119/100/100", url: "https://picsum.photos/id/119/800/600", title: "UI/UX Foundations" },
-            { thumb: "https://picsum.photos/id/20/100/100", url: "https://picsum.photos/id/20/800/600", title: "Advanced CSS Design" }
-        ]
+            { thumb: "assets/Sertifikat/arda/1.jpeg", url: "assets/Sertifikat/arda/1.jpeg", title: "Sertifikat 1" },
+            { thumb: "assets/Sertifikat/arda/2.jpeg", url: "assets/Sertifikat/arda/2.jpeg", title: "Sertifikat 2" },
+            { thumb: "assets/Sertifikat/arda/3.jpeg", url: "assets/Sertifikat/arda/3.jpeg", title: "Sertifikat 3" },
+            { thumb: "assets/Sertifikat/arda/4.jpeg", url: "assets/Sertifikat/arda/4.jpeg", title: "Sertifikat 4" },
+            { thumb: "assets/Sertifikat/arda/5.jpeg", url: "assets/Sertifikat/arda/5.jpeg", title: "Sertifikat 5" },
+            { thumb: "assets/Sertifikat/arda/6.jpeg", url: "assets/Sertifikat/arda/6.jpeg", title: "Sertifikat 6" }
+        ]     
     },
     {
         id: "m2",
@@ -28,8 +32,14 @@ const membersData = [
             linkedin: "https://www.linkedin.com/in/sabrina-indira-23343142b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
             instagram: "https://www.instagram.com/everymlka/"
         },
+        
         certificates: [
-            { thumb: "https://picsum.photos/id/36/100/100", url: "https://picsum.photos/id/36/800/600", title: "JavaScript Mastery" }
+            { thumb: "assets/Sertifikat/sabrina/1.jpeg", url: "assets/Sertifikat/sabrina/1.jpeg", title: "Sertifikat 1" },
+            { thumb: "assets/Sertifikat/sabrina/2.jpeg", url: "assets/Sertifikat/sabrina/2.jpeg", title: "Sertifikat 2" },
+            { thumb: "assets/Sertifikat/sabrina/3.jpeg", url: "assets/Sertifikat/sabrina/3.jpeg", title: "Sertifikat 3" },
+            { thumb: "assets/Sertifikat/sabrina/4.jpeg", url: "assets/Sertifikat/sabrina/4.jpeg", title: "Sertifikat 4" },
+            { thumb: "assets/Sertifikat/sabrina/5.jpeg", url: "assets/Sertifikat/sabrina/5.jpeg", title: "Sertifikat 5" },
+            { thumb: "assets/Sertifikat/sabrina/6.jpeg", url: "assets/Sertifikat/sabrina/6.jpeg", title: "Sertifikat 6" }
         ]
     },
     {
@@ -45,24 +55,33 @@ const membersData = [
             instagram: "https://www.instagram.com/dmsadjp_?igsi=bWt2NW5hdXAyOHlo&utm_source=qr"
         },
         certificates: [
-            { thumb: "https://picsum.photos/id/42/100/100", url: "https://picsum.photos/id/42/800/600", title: "Agile Project Management" },
-            { thumb: "https://picsum.photos/id/60/100/100", url: "https://picsum.photos/id/60/800/600", title: "Scrum Master Certification" }
-        ]
+            { thumb: "assets/Sertifikat/dimas/1.jpeg", url: "assets/Sertifikat/dimas/1.jpeg", title: "Sertifikat 1" },
+            { thumb: "assets/Sertifikat/dimas/2.jpeg", url: "assets/Sertifikat/dimas/2.jpeg", title: "Sertifikat 2" },
+            { thumb: "assets/Sertifikat/dimas/3.jpeg", url: "assets/Sertifikat/dimas/3.jpeg", title: "Sertifikat 3" },
+            { thumb: "assets/Sertifikat/dimas/4.jpeg", url: "assets/Sertifikat/dimas/4.jpeg", title: "Sertifikat 4" },
+            { thumb: "assets/Sertifikat/dimas/5.jpeg", url: "assets/Sertifikat/dimas/5.jpeg", title: "Sertifikat 5" },
+            { thumb: "assets/Sertifikat/dimas/6.jpeg", url: "assets/Sertifikat/dimas/6.jpeg", title: "Sertifikat 6" }
+        ]  
     },
     {
         id: "m4",
         name: "Hanifa Khoirunnisa'",
         role: "Anggota",
         photo: "assets/images/hanifa.jpeg",
-        about: "Rajin, suka tersenyum, dan bersyukur.",
-        motivation: "IPK penting karakter utama.",
+        about: "Saya adalah mahasiswa yang rajin, suka tersenyum, dan bersyukur.",
+        motivation: "IPK penting, karakter utama.",
         socials: {
-            github: "https://github.com",
-            linkedin: "https://linkedin.com",
-            instagram: "https://instagram.com"
+            github: "https://github.com/hanifa-nsa",
+            linkedin: "https://www.linkedin.com/in/hanifa-khoirunnisa-6675ab430?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+            instagram: "https://www.instagram.com/haniippaa_?mdxt=MTI0eTZmaHFqM3JrNg=="
         },
         certificates: [
-            { thumb: "https://picsum.photos/id/96/100/100", url: "https://picsum.photos/id/96/800/600", title: "Backend Architecture" }
+            { thumb: "assets/Sertifikat/hanifa/1.jpeg", url: "assets/Sertifikat/hanifa/1.jpeg", title: "Sertifikat 1" },
+            { thumb: "assets/Sertifikat/hanifa/2.jpeg", url: "assets/Sertifikat/hanifa/2.jpeg", title: "Sertifikat 2" },
+            { thumb: "assets/Sertifikat/hanifa/3.jpeg", url: "assets/Sertifikat/hanifa/3.jpeg", title: "Sertifikat 3" },
+            { thumb: "assets/Sertifikat/hanifa/4.jpeg", url: "assets/Sertifikat/hanifa/4.jpeg", title: "Sertifikat 4" },
+            { thumb: "assets/Sertifikat/hanifa/5.jpeg", url: "assets/Sertifikat/hanifa/5.jpeg", title: "Sertifikat 5" },
+            { thumb: "assets/Sertifikat/hanifa/6.jpeg", url: "assets/Sertifikat/hanifa/6.jpeg", title: "Sertifikat 6" }
         ]
     },
     {
@@ -70,15 +89,20 @@ const membersData = [
         name: "Zulfia Rahma Rizfatuz Shalihah",
         role: "Anggota",
         photo: "assets/images/zulfia.jpg",
-        about: "Rajin bangett.",
+        about: "Saya adalah mahasiswa yang rajin, suka tersenyum, dan bersyukur.",
         motivation: "مَنْ سَارَ عَلَى الدَّرْبِ وَصَل",
         socials: {
             github: "https://github.com/zulfiarahma",
             linkedin: "https://www.linkedin.com/in/zulfia-rahma-80462342b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-            instagram: "https://instagram.com",
+            instagram: "https://www.instagram.com/zlf1ars?vrfl=YzdkM2dyZ2V5aTVy&utm_source=qr"
         },
         certificates: [
-            { thumb: "https://picsum.photos/id/96/100/100", url: "https://picsum.photos/id/96/800/600", title: "Backend Architecture" }
+            { thumb: "assets/Sertifikat/zulfia/1.jpeg", url: "assets/Sertifikat/zulfia/1.jpeg", title: "Sertifikat 1" },
+            { thumb: "assets/Sertifikat/zulfia/2.jpeg", url: "assets/Sertifikat/zulfia/2.jpeg", title: "Sertifikat 2" },
+            { thumb: "assets/Sertifikat/zulfia/3.jpeg", url: "assets/Sertifikat/zulfia/3.jpeg", title: "Sertifikat 3" },
+            { thumb: "assets/Sertifikat/zulfia/4.jpeg", url: "assets/Sertifikat/zulfia/4.jpeg", title: "Sertifikat 4" },
+            { thumb: "assets/Sertifikat/zulfia/5.jpeg", url: "assets/Sertifikat/zulfia/5.jpeg", title: "Sertifikat 5" },
+            { thumb: "assets/Sertifikat/zulfia/6.jpeg", url: "assets/Sertifikat/zulfia/6.jpeg", title: "Sertifikat 6" }
         ]
     },
     {
@@ -86,15 +110,20 @@ const membersData = [
         name: "Hilal fadhil ramadan'",
         role: "Anggota",
         photo: "assets/images/hilal.jpeg",
-        about: "teman kelompok kerjane nyusul.",
-        motivation: "IPK penting karakter utama.",
+        about: "Saya adalah mahasiswa yang selalu berusaha untuk menjadi lebih baik setiap harinya, baik dalam hal akademik maupun pengembangan diri. Saya percaya bahwa dengan kerja keras dan ketekunan, kita dapat mencapai tujuan yang kita impikan.",
+        motivation: "Tetap semangat dan jangan pernah menyerah, karena setiap usaha yang kita lakukan akan membuahkan hasil yang manis di kemudian hari.",
         socials: {
-            github: "https://github.com",
-            linkedin: "https://linkedin.com",
-            instagram: "https://instagram.com"
+            github: "https://github.com/HiraruFR18",
+            linkedin: "https://www.linkedin.com/in/hilal-fadhil-ramadhan-14b84042b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+            instagram: "https://www.instagram.com/hilalfadhil31?mdxt=MTVvdDFyZ3JvOHp1NA=="
         },
         certificates: [
-            { thumb: "https://picsum.photos/id/96/100/100", url: "https://picsum.photos/id/96/800/600", title: "Backend Architecture" }
+            { thumb: "assets/Sertifikat/hilal/1.jpeg", url: "assets/Sertifikat/hilal/1.jpeg", title: "Sertifikat 1" },
+            { thumb: "assets/Sertifikat/hilal/2.jpeg", url: "assets/Sertifikat/hilal/2.jpeg", title: "Sertifikat 2" },
+            { thumb: "assets/Sertifikat/hilal/3.jpeg", url: "assets/Sertifikat/hilal/3.jpeg", title: "Sertifikat 3" },
+            { thumb: "assets/Sertifikat/hilal/4.jpeg", url: "assets/Sertifikat/hilal/4.jpeg", title: "Sertifikat 4" },
+            { thumb: "assets/Sertifikat/hilal/5.jpeg", url: "assets/Sertifikat/hilal/5.jpeg", title: "Sertifikat 5" },
+            { thumb: "assets/Sertifikat/hilal/6.jpeg", url: "assets/Sertifikat/hilal/6.jpeg", title: "Sertifikat 6" }
         ]
     },
     {
@@ -102,15 +131,20 @@ const membersData = [
         name: "Wahyu Fajar Maharga'",
         role: "Anggota",
         photo: "assets/images/fajar.jpeg",
-        about: "menjadi pribadi yang lebih percaya diri, tanggung jawab",
+        about: "Saya adalah mahasiswa yang ingin menjadi pribadi yang lebih percaya diri dan tanggung jawab.",
         motivation: "Jadilah dirimu sendiri",
         socials: {
             github: "https://github.com/wahyufajarm14-byte",
             linkedin: "https://id.linkedin.com/in/wahyu-fajar-maharga-1b486542b",
-            instagram: "https://instagram.com"
+            instagram: "https://www.instagram.com/ppaajriii?cplk=MW9hc3g2aXQwemR0bQ=="
         },
         certificates: [
-            { thumb: "https://picsum.photos/id/96/100/100", url: "https://picsum.photos/id/96/800/600", title: "Backend Architecture" }
+            { thumb: "assets/Sertifikat/fajar/1.jpeg", url: "assets/Sertifikat/fajar/1.jpeg", title: "Sertifikat 1" },
+            { thumb: "assets/Sertifikat/fajar/2.jpeg", url: "assets/Sertifikat/fajar/2.jpeg", title: "Sertifikat 2" },
+            { thumb: "assets/Sertifikat/fajar/3.jpeg", url: "assets/Sertifikat/fajar/3.jpeg", title: "Sertifikat 3" },
+            { thumb: "assets/Sertifikat/fajar/4.jpeg", url: "assets/Sertifikat/fajar/4.jpeg", title: "Sertifikat 4" },
+            { thumb: "assets/Sertifikat/fajar/5.jpeg", url: "assets/Sertifikat/fajar/5.jpeg", title: "Sertifikat 5" },
+            { thumb: "assets/Sertifikat/fajar/6.jpeg", url: "assets/Sertifikat/fajar/6.jpeg", title: "Sertifikat 6" }
         ]
     }
 ];
